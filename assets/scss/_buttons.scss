@@ -1,0 +1,16 @@
+.btn-default{
+  padding: 16px 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: $button-text;
+  border: 0;
+  color: $white;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.16), 0 1.5px 6px rgba(0, 0, 0, 0.08);
+  @include transition(all 150ms ease-in-out);
+}
+
+.btn-default:active,
+.btn-default:hover,
+.btn-default:focus{
+  color: #fff;
+}

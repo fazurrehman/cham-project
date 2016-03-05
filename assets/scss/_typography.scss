@@ -1,0 +1,26 @@
+/*typography*/
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #455a64;
+}
+
+.title{
+  font-size: 2.8em;
+  letter-spacing: -1px;
+}
+
+.title-medium{
+  font-size: 2.3em;;
+  line-height: 1.5;
+}
+
+@media (max-width: 1199px){
+  .title{ font-size: 2.4em;}
+}
+
+@media (max-width: 767px){
+  .title{ font-size: 2em;}
+}

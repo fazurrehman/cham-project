@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+// Font weights
+$light: 300;
+$regular: 400;
+$bold: 600;
+// Montserrat bold
+$base-bold: 700;
+
+// font family
+$primary-text:'Open Sans', sans-serif;
+$navbar-text: 'Roboto', sans-serif;
+$heading-text: 'Roboto', sans-serif;
+$button-text: 'Roboto', sans-serif;
+
+// colors
+$white: #FFFFFF;
+$red: #e74c3c;
+$blue: #3498db;
+$heading-point: #5bd2b8;
+$cyan: #0396a6;
+$white-light: #f4f5f7;
+$white-light2: #efefef;
+$midnight: #3d5560;
+
+// default transtion
+$default-transition: 150ms all ease-in-out;
+
+// other class like colors, fonts-weight, padding etc...
+/*text transform*/
+.uppercase{ text-transform: uppercase; }
+.lowercase{ text-transform: none; }
+
+/*font weights*/
+.light{ font-weight: $light;}
+.regular{ font-weight: $regular;}
+.bold{ font-weight: $bold;}
+
+/*padding*/
+.padding_60{ padding: 60px 0; }
+
+/*colors*/
+.red{ color: $red}
+.red-bg{ background: $red}
+.blue{ color: $blue }
+.blue-bg{ background: $blue }
+.bold{ font-weight: $bold}
+.cyan-bg{ background: $cyan;}
+.white-light-bg{ background: $white-light;}
+.white-light-bg2{ background: $white-light2;}
+.midnight{ background: $midnight;}
+
+/* shadow */
+.shadow{ box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19); }
+.card-shadow{
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.12), 0 1.5px 6px rgba(0, 0, 0, 0.08);
+  transition: $default-transition;
+}
+
+.card-shadow:hover{
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12), 0 5px 40px rgba(0, 0, 0, 0.10);
+}

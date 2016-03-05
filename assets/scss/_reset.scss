@@ -1,0 +1,91 @@
+// webfont loader
+.wf-loading body{
+  /* styles for fallback fonts */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.wf-active body {
+  /* styles for custom fonts */
+  font-family: $primary-text;
+}
+.wf-inactive body {
+  /* use fallback fonts */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.wf-loading h1, .wf-loading h2, .wf-loading h3, .wf-loading h4, .wf-loading h5, .wf-loading h6{
+  /* styles for fallback fonts */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.wf-active h1, .wf-active h2, .wf-active h3, .wf-active h4, .wf-active h5, .wf-active h6{
+  /* styles for custom fonts */
+  font-family: $heading-text;
+}
+.wf-inactive h1, .wf-inactive h2, .wf-inactive h3, .wf-inactive h4, .wf-inactive h5, .wf-inactive h6{
+  /* use fallback fonts */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/*body reset*/
+body{
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.3px;
+  overflow-X: hidden;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 1.5em;
+}
+
+/* Make sure embeds and iframes fit their containers */
+embed,
+iframe,
+object {
+  max-width: 100%;
+}
+
+/*ul, ol, li*/
+ul, ol, li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+// a reset
+a{
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+a:hover,
+a:active,
+a:focus{
+  outline: none !important;
+}
+
+i{
+  font-style: normal
+}
+
+// responsive image
+img {
+  max-width:100%;
+  height:auto;
+  display:block;
+  vertical-align: middle;
+}
+
+/*outline & box-sizing*/
+*{
+  outline: none;
+  box-sizing: border-box;
+}
+
+/*paragraph*/
+p{
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 1.3em;
+  opacity: 0.95;
+
+}
